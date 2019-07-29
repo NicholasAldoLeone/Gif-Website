@@ -1,0 +1,51 @@
+body {
+    background-color: aliceblue;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+
+}
+
+#buttonsBox {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+#addButtonsBox {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#inputButton, #setNumber {
+    width: 183px;
+    background: rgb(64, 127, 182);
+
+}
+
+.optionBtn, #inputButton, #setNumber {
+    background:  rgb(64, 127, 182);
+    color: white;
+    font-weight: bold;
+
+}
+
+#inputBox, #numberOfGifs {
+    text-align: center;
+
+
+}
+
+#informationBox1 {
+    width: 183px;
+    height: 200px;
+
+}
+
+
+
