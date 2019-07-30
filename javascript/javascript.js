@@ -8,8 +8,11 @@ function clearPreviousGifs() {
 $("#setNumber").on("click", function(){
     maxNumOfGifs = $("#numberOfGifs").val();
 
+    $("#numberOfGifs").val("");
+    
 })
 
+$(document).on("click", ".optionBtn", displayGifs);
 
 function displayGifs() {
     var gif = $(this).attr("data-name");
@@ -52,6 +55,8 @@ function renderButtons() {
         a.text(gifOptions[i]);
 
         $("#buttonsBox").append(a);
+
+        $("#inputBox").val("");
     }
 }
 
@@ -70,7 +75,6 @@ $("#inputButton").on("click", function(event){
     }
 });
 
-$(document).on("click", ".optionBtn", displayGifs);
 
 renderButtons();
 
